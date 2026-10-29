@@ -30,19 +30,13 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-    # DS14-Start
-    - type: Skill
-      group: Medical
-    # DS14-End
 
 - type: startingGear
   id: BrigmedicGear
   equipment:
     outerClothing: ClothingOuterVestSecurityMedic
     shoes: ClothingShoesBootsBrigmedic
-    eyes: ClothingEyesHudMedical
+    eyes: ClothingEyesHudMedSec
     head: ClothingHeadHatBeretBrigmedic
     id: BrigmedicPDA
     ears: ClothingHeadsetBrigmedic
@@ -59,6 +53,6 @@
   equipment:
     outerClothing: ClothingOuterVestSecurityMedic
     shoes: ClothingShoesBootsBrigmedic
-    eyes: ClothingEyesHudMedical
+    eyes: ClothingEyesHudMedSec
     head: ClothingHeadHatBeretBrigmedic
     belt: ClothingBeltMedicalSecurityWebbing
